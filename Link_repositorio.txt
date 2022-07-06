@@ -1,5 +1,6 @@
 nueva prueba 1
 Link: https://github.com/sadiel06/puebaJenkins.git
+ivan
 docker comand: 
 mkdir $HOME/jenkins_home
 sudo chown 1000 $HOME/jenkins_home
