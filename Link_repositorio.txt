@@ -1,2 +1,7 @@
 nueva prueba 1
 Link: https://github.com/sadiel06/puebaJenkins.git
+docker comand: 
+mkdir $HOME/jenkins_home
+sudo chown 1000 $HOME/jenkins_home
+sudo chmod 777 $HOME/jenkins_home
+docker run -d -p 49001:8080 -v $HOME/jenkins_home:/var/jenkins_home --name jenkins jenkins/jenkins:lts-jdk11
